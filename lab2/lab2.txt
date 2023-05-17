@@ -1,0 +1,28 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <Windows.h>
+#include <stdio.h>
+
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	char a, strok[30];
+	float c, d;
+	int e,f,g;
+	printf("Введите символ и строку(через пробел): ");
+	scanf("%c", &a);
+	gets(strok);
+	printf("\nВведите два целых десятичных числа: ");
+	scanf("%d %d", &f,&g);
+	printf("\nВведите два числа с плавающей точкой: ");
+	scanf("%f %f", &c, &d);
+	printf("\nВведите целое беззнаковое число: ");
+	scanf("%d", &e);
+	printf("\nСимвол: %c\nСимвол в виде кода: %d\n", a, (int)(a));
+	printf("\nСтрока: %s\nДлина строки: %d\n", strok, (strlen(strok)-1));
+	printf("\nВывод целого числа в десятиричном виде: %d\nВ шестнадцатиричном виде: %x\nВывод целого числа в десятиричном виде: %d\nВ шестнадцатиричном виде: -%x\n",f,f,g,(abs(g)));
+	printf("\nЧисла с плавающей точкой в десятичной форме: %0.3f, %0.3f\nВ экспоненциальной: %e, %e\n", c, d, c, d);
+	printf("\nЧисло в виде десятиричного: %u\nВосьмиричного: %o\nШестнадцатиричного: %x\n",e,e,e);
+	system("pause");
+	return 0;
+}
