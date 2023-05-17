@@ -4,7 +4,12 @@
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	int a1, b1, c1, d1, sum=0, k1, k2, k3;
+	int a1;// это переменна€ a1
+	int b1;
+	int c1;
+	int d1;
+	int sum = 0;
+	int k1, k2, k3;
 	printf("¬ведите число a: "); scanf("%d", &a);
 	printf("¬ведите число b: "); scanf("%d", &b);
 	printf("¬ведите число c: "); scanf("%d", &c);
