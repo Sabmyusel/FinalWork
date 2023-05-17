@@ -4,7 +4,7 @@
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	int a, b, c, d, sum=0, k1, k2, k3;
+	int a1, b1, c1, d1, sum=0, k1, k2, k3;
 	printf("¬ведите число a: "); scanf("%d", &a);
 	printf("¬ведите число b: "); scanf("%d", &b);
 	printf("¬ведите число c: "); scanf("%d", &c);
